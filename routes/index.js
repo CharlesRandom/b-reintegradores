@@ -4,7 +4,7 @@ const path = require('path')
 
 /* GET home page */
 router.get('/*', (req, res, next) => {
-  console.log('index')
+  console.log('index back')
   res.sendFile(path.join(__dirname, '../public', 'index.html'));
 });
 
