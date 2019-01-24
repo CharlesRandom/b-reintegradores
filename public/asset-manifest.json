@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.e4ee08cc.chunk.css",
-  "main.js": "/static/js/main.28746f77.chunk.js",
-  "main.js.map": "/static/js/main.28746f77.chunk.js.map",
+  "main.css": "/static/css/main.e02ad027.chunk.css",
+  "main.js": "/static/js/main.1e837292.chunk.js",
+  "main.js.map": "/static/js/main.1e837292.chunk.js.map",
   "static/css/1.095e0f8c.chunk.css": "/static/css/1.095e0f8c.chunk.css",
   "static/js/1.690b546a.chunk.js": "/static/js/1.690b546a.chunk.js",
   "static/js/1.690b546a.chunk.js.map": "/static/js/1.690b546a.chunk.js.map",
@@ -26,10 +26,10 @@
   "static/media/WereTheSuperhumans-RioParalympics2016Trailer.mp4": "/static/media/WereTheSuperhumans-RioParalympics2016Trailer.a0b17fbe.mp4",
   "static/media/Botones_Objetivos_172x115px_16.png": "/static/media/Botones_Objetivos_172x115px_16.f0002399.png",
   "static/media/Botones_Objetivos_172x115px_17.png": "/static/media/Botones_Objetivos_172x115px_17.046cbded.png",
-  "static/media/index.css": "/static/media/bg.bedb233a.svg",
-  "static/css/main.e4ee08cc.chunk.css.map": "/static/css/main.e4ee08cc.chunk.css.map",
+  "static/media/index.css": "/static/media/bg_color.c2c1aefd.svg",
   "static/css/1.095e0f8c.chunk.css.map": "/static/css/1.095e0f8c.chunk.css.map",
+  "static/css/main.e02ad027.chunk.css.map": "/static/css/main.e02ad027.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.912acc4b0d35fa1d2a6e551ada1cb067.js": "/precache-manifest.912acc4b0d35fa1d2a6e551ada1cb067.js",
+  "precache-manifest.fb7286115cac30fceec9354eb233fa26.js": "/precache-manifest.fb7286115cac30fceec9354eb233fa26.js",
   "service-worker.js": "/service-worker.js"
 }
