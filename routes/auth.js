@@ -1,6 +1,7 @@
 const router = require('express').Router()
 const User = require('../models/User')
 const passport = require('../helpers/passport')
+const {welcomeMail} = require('../helpers/mailer')
 
 const isAuth = (req, res, next) => {
   if(req.isAuthenticated()) return next()
@@ -9,8 +10,15 @@ const isAuth = (req, res, next) => {
 
 //Signup
 router.post('/signup', (req, res, next) => {
+  const characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  let token = '';
+  for (let i = 0; i < 25; i++) {
+      token += characters[Math.floor(Math.random() * characters.length )];
+  }
+  req.body['confirmationCode'] = token
   User.register(req.body, req.body.password)
   .then(user => {
+    welcomeMail(user.email, user)
     res.status(201).json(user)
   }).catch(e => {
     res.status(500).json(e)
