@@ -8,6 +8,24 @@ const isAuth = (req, res, next) => {
   return res.status(403).json({message:'No pasas perro'})
 }
 
+//Confirmation code sent by email. If valid -> active user
+router.get('/confirm/:confirmationCode', (req, res, next)=>{
+  const {confirmationCode} = req.params
+  User.findOne({confirmationCode})
+  .then(user=>{
+    User.findByIdAndUpdate(user._id,{$set: {status: "Active"}})
+    .then(u=>{
+      res.status(201).json(u)
+    })
+    .catch(e=>{
+      res.status(404).json(e)
+    })
+  })
+  .catch(e=>{
+    res.status(500).json(e)
+  })
+})
+
 //Signup
 router.post('/signup', (req, res, next) => {
   const characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
