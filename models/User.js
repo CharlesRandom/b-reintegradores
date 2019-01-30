@@ -26,13 +26,13 @@ const userSchema = new Schema({
     type:String,
     enum:["Física", "Moral"]
   },
-  receivedResources:boolean,
+  receivedResources:Boolean,
   resourcesOrigin:{
     type:String,
     enum:["Público","Privado"]
   },
-  donee:boolean,
-  formerProyects:boolean,
+  donee:Boolean,
+  formerProyects:Boolean,
   numFormerProyects:Number,
   complianceformerProyects:String,
   comment:String,
