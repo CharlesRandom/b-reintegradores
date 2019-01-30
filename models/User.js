@@ -26,12 +26,24 @@ const userSchema = new Schema({
     type:String,
     enum:["Física", "Moral"]
   },
+  receivedResources:boolean,
+  resourcesOrigin:{
+    type:String,
+    enum:["Público","Privado"]
+  },
+  donee:boolean,
+  formerProyects:boolean,
+  numFormerProyects:Number,
+  complianceformerProyects:String,
+  comment:String,
+  establishment:Date,
   constanciaFiscal:String,
   actaConstitutiva:String,
   CURP:String,
   RFC:String,
   address:String,
   birthdate:Date,
+  objective:String,
   gender:{
     type:String,
     enum:["Femenino", "Masculino"]
