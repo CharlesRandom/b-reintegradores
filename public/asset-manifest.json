@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.86f876ed.chunk.css",
-  "main.js": "/static/js/main.a05afbc3.chunk.js",
-  "main.js.map": "/static/js/main.a05afbc3.chunk.js.map",
+  "main.css": "/static/css/main.7dc4d5b8.chunk.css",
+  "main.js": "/static/js/main.ed84fff3.chunk.js",
+  "main.js.map": "/static/js/main.ed84fff3.chunk.js.map",
   "static/css/1.95a5d8cf.chunk.css": "/static/css/1.95a5d8cf.chunk.css",
   "static/js/1.4ff9c08e.chunk.js": "/static/js/1.4ff9c08e.chunk.js",
   "static/js/1.4ff9c08e.chunk.js.map": "/static/js/1.4ff9c08e.chunk.js.map",
@@ -27,11 +27,11 @@
   "static/media/Logo-Curvas-Reintegradores.png": "/static/media/Logo-Curvas-Reintegradores.994b1377.png",
   "static/media/Botones_Objetivos_172x115px_2.png": "/static/media/Botones_Objetivos_172x115px_2.1e69a3d0.png",
   "static/media/newsletter.png": "/static/media/newsletter.e7b4a3c1.png",
-  "static/media/index.css": "/static/media/Brandon_blk.c10f15f1.otf",
+  "static/media/index.css": "/static/media/bg_color.984ebf8b.svg",
   "static/media/Logo_ProyectoTrabajoDigno_173x71px-01.png": "/static/media/Logo_ProyectoTrabajoDigno_173x71px-01.b0e8c7c4.png",
+  "static/css/main.7dc4d5b8.chunk.css.map": "/static/css/main.7dc4d5b8.chunk.css.map",
   "static/css/1.95a5d8cf.chunk.css.map": "/static/css/1.95a5d8cf.chunk.css.map",
-  "static/css/main.86f876ed.chunk.css.map": "/static/css/main.86f876ed.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.43abd14577a587842687a73c7b44a494.js": "/precache-manifest.43abd14577a587842687a73c7b44a494.js",
+  "precache-manifest.41924161c695473feacb1d18924dc4d0.js": "/precache-manifest.41924161c695473feacb1d18924dc4d0.js",
   "service-worker.js": "/service-worker.js"
 }
