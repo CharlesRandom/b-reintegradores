@@ -12,7 +12,7 @@ const userSchema = new Schema({
   },
   userType:{
     type:String,
-    enum:["Donatario","Organización","Visitante"]
+    enum:["Donatario","Organización","Visitante","ProyectoÁngel","FormaciónAyuda"]
   },
   donationOrigin:{
     type:String,
@@ -35,14 +35,19 @@ const userSchema = new Schema({
   formerProyects:Boolean,
   numFormerProyects:Number,
   complianceformerProyects:String,
+  projectDescription:String,
   comment:String,
   establishment:Date,
   constanciaFiscal:String,
   actaConstitutiva:String,
+  curriculumVitae:String,
   CURP:String,
   RFC:String,
+  profession:String,
   address:String,
   birthdate:Date,
+  startTime:Date,
+  endTime:Date,
   objective:String,
   gender:{
     type:String,
