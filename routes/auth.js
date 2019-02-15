@@ -15,7 +15,7 @@ router.get('/confirm/:confirmationCode', (req, res, next)=>{
   .then(user=>{
     User.findByIdAndUpdate(user._id,{$set: {status: "Active"}})
     .then(u=>{
-      res.status(201).json(u)
+      res.status(200).json(u)
     })
     .catch(e=>{
       res.status(404).json(e)

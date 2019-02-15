@@ -16,7 +16,7 @@ function welcomeMail(email, user){
     html: `
       <h1>Hola ${user.name}, bienvenido a Reintegradores</h1>
       <p>Haz click en la siguiente liga o ábrela en tu navegador para confirmar tu cuenta de correo</p>
-      https://reintegradoresdev.herokuapp.com/auth/confirm/${user.confirmationCode}
+      https://reintegradoresdev.herokuapp.com/confirm/${user.confirmationCode}
     `
   }).then(res=>{
     console.log(res)
