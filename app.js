@@ -70,15 +70,17 @@ app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 
 
 // default value for title local
-app.locals.title = 'Petbnb';
+app.locals.title = 'Reintegradores backend';
 
 
 
 const index = require('./routes/index');
 const auth = require('./routes/auth');
+const projects = require('./routes/projects');
 
 
 app.use('/auth', auth);
+app.use('/projects', projects);
 app.use('/', index);
 
 

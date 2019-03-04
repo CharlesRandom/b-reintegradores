@@ -2,6 +2,10 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
 const projectSchema = new Schema({
+  user:{
+    type:Schema.Types.ObjectId,
+    ref:'User'
+  },
   name:String,
   objective:String,
   country:String,
@@ -17,7 +21,7 @@ const projectSchema = new Schema({
   context:String,
   video:String,
   workplan:String,
-  agreement:Date,
+  agreement:String,
   status:{
     type:String,
     enum:["Pending Confirmation", "Active"],
