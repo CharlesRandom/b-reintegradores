@@ -25,21 +25,6 @@ function welcomeMail(email, user){
                   <p style="margin-top: 3rem; font-weight: bold; font-size: 1.2rem; width: 60%;">visita www.reintegradores.com.mx</p>
                   <p style="font-weight: bold; font-size: 1.2rem; width: 50%;">Este correo fue enciado a ${email}</p>
               </div>
-              <style scoped>
-                  #rompecabezas{
-                    position: absolute; 
-                    top: 0; 
-                    right: 0;
-                  }
-                  @media (max-width: 800px) {
-                      #rompecabezas {
-                          display: none;
-                      }
-                  }
-              </style>
-              <div id="rompecabezas" style="position: absolute; top: 0; right: 0;">
-                  <img style="position: absolute; top: 0; right: 0; width: 250px;" src="https://res.cloudinary.com/gerard0jr/image/upload/v1559242444/Neobase/Reintegradores/mail/rompecabzas_imagen.png" alt="">
-              </div>
           </div>
           <div>
               <div style="float: left; width: 25%; height: 10px; background-color: #90b249"></div>
