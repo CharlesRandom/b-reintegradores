@@ -3,7 +3,7 @@ const Schema = mongoose.Schema
 const plm = require('passport-local-mongoose')
 
 const userSchema = new Schema({
-  name:String,
+  username:String,
   lastname:String,
   country:String,
   email:{
@@ -12,7 +12,8 @@ const userSchema = new Schema({
   },
   userType:{
     type:String,
-    enum:["Donatario","Organización","Visitante","ProyectoÁngel","FormaciónAyuda"]
+    enum:["donate","org","formation","angel"],
+    default: 'donate'
   },
   donationOrigin:{
     type:String,
@@ -62,6 +63,9 @@ const userSchema = new Schema({
     type:String,
     unique:true
   },
+  phone: Number,
+  country: String,
+  region: String,
 },{
   timestamps:{
     createdAt:true,
