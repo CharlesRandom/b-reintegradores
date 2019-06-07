@@ -23,7 +23,7 @@ function welcomeMail(email, user){
                   <a href=https://reintegradoresdev.herokuapp.com/confirm/${user.confirmationCode}><p style="font-weight: lighter; font-size: 1.2rem; width: 50%;">https://reintegradoresdev.herokuapp.com/confirm/${user.confirmationCode}</p></a>
                   <p style="font-weight: bold; font-size: 1.2rem; width: 50%;">Tienes 24 horas para confirmar tu correo, de lo contrario no podrás acceder a tu cuenta</p>
                   <p style="margin-top: 3rem; font-weight: bold; font-size: 1.2rem; width: 60%;">visita www.reintegradores.com.mx</p>
-                  <p style="font-weight: bold; font-size: 1.2rem; width: 50%;">Este correo fue enciado a ${email}</p>
+                  <p style="font-weight: bold; font-size: 1.2rem; width: 50%;">Este correo fue enviado a ${email}</p>
               </div>
           </div>
           <div>

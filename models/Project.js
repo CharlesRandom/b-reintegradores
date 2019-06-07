@@ -7,9 +7,20 @@ const projectSchema = new Schema({
     ref:'User'
   },
   name:String,
-  objective:String,
+  responsible: String,
   country:String,
-  state:String,
+  region:String,
+  description: String,
+  responsible: String,
+  deductible: Boolean,
+  objective: String,
+  population: String,
+  status:{
+    type:String,
+    enum:["Pending Confirmation", "Active", "Deleted"],
+    default:"Pending Confirmation"
+  },
+  
   slogan:String,
   typeDescription:String,
   logo:String,
@@ -22,11 +33,6 @@ const projectSchema = new Schema({
   video:String,
   workplan:String,
   agreement:String,
-  status:{
-    type:String,
-    enum:["Pending Confirmation", "Active"],
-    default:"Pending Confirmation"
-  },
 },{
   timestamps:{
     createdAt:true,
