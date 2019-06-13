@@ -77,10 +77,12 @@ app.locals.title = 'Reintegradores backend';
 const index = require('./routes/index');
 const auth = require('./routes/auth');
 const projects = require('./routes/projects');
+const organizations = require('./routes/organizations');
 
 
 app.use('/auth', auth);
 app.use('/projects', projects);
+app.use('/organizations', organizations);
 app.use('/', index);
 
 
