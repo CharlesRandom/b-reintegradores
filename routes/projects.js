@@ -6,6 +6,16 @@ const isAuth = (req, res, next) => {
   return res.status(401).json({message:'No pasas perro'})
 }
 
+// Get all projects by organization
+router.get('/org/:id', (req, res, next)=>{
+  const { id } = req.params
+  Project.find({user:id})
+  .then(projects => {
+    return res.status(200).json(projects)
+  })
+  .catch(e => res.status(404).json(e))
+})
+
 // Get all projects
 router.get('/', (req, res, next)=>{
   Project.find()
