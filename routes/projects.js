@@ -16,6 +16,16 @@ router.get('/org/:id', (req, res, next)=>{
   .catch(e => res.status(404).json(e))
 })
 
+// Get all projects by objectiv
+router.get('/obj/:id', (req, res, next)=>{
+  const { id } = req.params
+  Project.find({objective:id})
+  .then(projects => {
+    return res.status(200).json(projects)
+  })
+  .catch(e => res.status(404).json(e))
+})
+
 // Get all projects
 router.get('/', (req, res, next)=>{
   Project.find()

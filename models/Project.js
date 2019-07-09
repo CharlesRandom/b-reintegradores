@@ -13,7 +13,7 @@ const projectSchema = new Schema({
   description: String,
   responsible: String,
   deductible: Boolean,
-  objective: String,
+  objective: Number,
   population: String,
   status:{
     type:String,
