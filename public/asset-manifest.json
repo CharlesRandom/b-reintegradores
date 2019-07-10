@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "main.css": "/static/css/main.6b7329b8.chunk.css",
   "main.js": "/static/js/main.a23ea159.chunk.js",
   "main.js.map": "/static/js/main.a23ea159.chunk.js.map",
@@ -12,6 +13,21 @@
   "service-worker.js": "/service-worker.js",
   "static/css/2.f0e45c8e.chunk.css.map": "/static/css/2.f0e45c8e.chunk.css.map",
   "static/css/main.6b7329b8.chunk.css.map": "/static/css/main.6b7329b8.chunk.css.map",
+=======
+  "main.css": "/static/css/main.0e63314f.chunk.css",
+  "main.js": "/static/js/main.bb31c303.chunk.js",
+  "main.js.map": "/static/js/main.bb31c303.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.42ac5946.js",
+  "runtime~main.js.map": "/static/js/runtime~main.42ac5946.js.map",
+  "static/css/2.a820339b.chunk.css": "/static/css/2.a820339b.chunk.css",
+  "static/js/2.965c2718.chunk.js": "/static/js/2.965c2718.chunk.js",
+  "static/js/2.965c2718.chunk.js.map": "/static/js/2.965c2718.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.875995802f4ce8443eae7659345b96a7.js": "/precache-manifest.875995802f4ce8443eae7659345b96a7.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/2.a820339b.chunk.css.map": "/static/css/2.a820339b.chunk.css.map",
+  "static/css/main.0e63314f.chunk.css.map": "/static/css/main.0e63314f.chunk.css.map",
+>>>>>>> 93c2b858a910e0f014becc008e9d5a3e927ac7fc
   "static/media/Botones_Objetivos_172x115px_1.png": "/static/media/Botones_Objetivos_172x115px_1.55ecccfe.png",
   "static/media/Botones_Objetivos_172x115px_10.png": "/static/media/Botones_Objetivos_172x115px_10.3abc3163.png",
   "static/media/Botones_Objetivos_172x115px_11.png": "/static/media/Botones_Objetivos_172x115px_11.3de6fcdc.png",
@@ -30,6 +46,7 @@
   "static/media/Botones_Objetivos_172x115px_7.png": "/static/media/Botones_Objetivos_172x115px_7.4b828804.png",
   "static/media/Botones_Objetivos_172x115px_8.png": "/static/media/Botones_Objetivos_172x115px_8.105126a1.png",
   "static/media/Botones_Objetivos_172x115px_9.png": "/static/media/Botones_Objetivos_172x115px_9.a690dd06.png",
+<<<<<<< HEAD
   "static/media/Logo_reintegradores_horizontal.png": "/static/media/Logo_reintegradores_horizontal.292b5f85.png",
   "static/media/Benefits.css": "/static/media/bk_benefits.595efcf9.png",
   "static/media/How.css": "/static/media/bk_how.ce7c4621.png",
@@ -37,4 +54,15 @@
   "static/media/logo_reintegradores_footer.png": "/static/media/logo_reintegradores_footer.30db1932.png",
   "static/media/news1.jpg": "/static/media/news1.2be2b8f9.jpg",
   "static/media/news2.jpg": "/static/media/news2.84e1c695.jpg"
+=======
+  "static/media/index.css": "/static/media/Brandon_reg.1f55925e.otf",
+  "static/media/Logo_reintegradores_horizontal.png": "/static/media/Logo_reintegradores_horizontal.292b5f85.png",
+  "static/media/Benefits.css": "/static/media/bk_benefits.595efcf9.png",
+  "static/media/How.css": "/static/media/bk_how.ce7c4621.png",
+  "static/media/Presentation.css": "/static/media/bk_presentation.82eb0dfb.png",
+  "static/media/logo_reintegradores_footer.png": "/static/media/logo_reintegradores_footer.30db1932.png",
+  "static/media/news1.jpg": "/static/media/news1.2be2b8f9.jpg",
+  "static/media/news2.jpg": "/static/media/news2.84e1c695.jpg",
+  "static/media/OrgForm.css": "/static/media/signup_org.3576f8e0.png"
+>>>>>>> 93c2b858a910e0f014becc008e9d5a3e927ac7fc
 }
